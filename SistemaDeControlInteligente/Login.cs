@@ -51,7 +51,7 @@ namespace WinFormsApp
             {
                 DialogResult = DialogResult.OK;
                 Llenarcache();
-                MainForm main = new MainForm();
+                Principal main = new Principal();
                 main.Show();
                 this.Hide();
             }

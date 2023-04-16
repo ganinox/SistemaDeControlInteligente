@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp
 {
-    partial class MainForm
+    partial class Principal
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.btnModule1 = new System.Windows.Forms.Button();
             this.btnModule3 = new System.Windows.Forms.Button();
             this.btnModule2 = new System.Windows.Forms.Button();

@@ -8,9 +8,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using SistemaDeControlInteligente.Properties;
 namespace WinFormsApp
 {
-    public partial class MainForm : Form
+    public partial class Principal : Form
     {
-        public MainForm()
+        public Principal()
         {
             InitializeComponent();
             LoadCache();

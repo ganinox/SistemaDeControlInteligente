@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministracionFormcs.cs">
+    <Compile Include="Modulos\AdministracionFormcs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdministracionFormcs.Designer.cs">
+    <Compile Include="Modulos\AdministracionFormcs.Designer.cs">
       <DependentUpon>AdministracionFormcs.cs</DependentUpon>
     </Compile>
     <Compile Include="CacheUsercs.cs" />
@@ -65,11 +65,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\FormMonitoreo.cs">
       <SubType>Form</SubType>
@@ -78,10 +78,10 @@
       <DependentUpon>FormMonitoreo.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\Notificacion.cs" />
-    <Compile Include="Opciones.cs">
+    <Compile Include="Modulos\Opciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Opciones.Designer.cs">
+    <Compile Include="Modulos\Opciones.Designer.cs">
       <DependentUpon>Opciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -98,7 +98,7 @@
     <Compile Include="RegistroRFID.Designer.cs">
       <DependentUpon>RegistroRFID.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdministracionFormcs.resx">
+    <EmbeddedResource Include="Modulos\AdministracionFormcs.resx">
       <DependentUpon>AdministracionFormcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Estado.resx">
@@ -107,13 +107,13 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\FormMonitoreo.resx">
       <DependentUpon>FormMonitoreo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Opciones.resx">
+    <EmbeddedResource Include="Modulos\Opciones.resx">
       <DependentUpon>Opciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
